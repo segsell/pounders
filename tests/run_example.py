@@ -4,7 +4,6 @@ import numpy as np
 import pandas as pd
 from pounders.solve import solve_pounders
 
-
 data = pd.read_csv("example_data/data.csv")
 endog = np.asarray(data["y"])
 exog = np.asarray(data["t"])
